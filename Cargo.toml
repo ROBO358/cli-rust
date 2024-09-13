@@ -1,6 +1,9 @@
 [package]
 name = "cli-rust"
+author = "ROBO358"
 version = "0.1.0"
 edition = "2021"
+description = "Rustで記述するCLIアプリのテストプロジェクト"
 
 [dependencies]
+clap = { version = "4.0", features = ["derive"] }
